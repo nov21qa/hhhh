@@ -1,0 +1,27 @@
+.page-head {
+  position: relative;
+
+  .row {
+    min-width: 80rem;
+    max-width: 144rem;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    [class^="col-"] {
+      padding: 2rem;
+    }
+    .col-1-of-4 {
+      margin-right: $gutter-horizontal;
+      display: inline;
+      float: left;
+    }
+    .col-3-of-4 {
+      //no margin right
+
+      margin-right: 0;
+      float: left;
+      display: inline;
+    }
+  }
+}

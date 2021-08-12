@@ -1,0 +1,33 @@
+.page-head {
+  height: 95vh;
+  background-color: $color-primary;
+  position: relative;
+}
+
+.logo-box {
+  position: absolute;
+  top: $logo-top;
+  left: $logo-left;
+  animation-name: logo-transition-on-load;
+  animation-duration: 2s;
+}
+
+.row {
+  font-size: 1.5rem;
+}
+
+.portfolio-image {
+  margin: 0 auto;
+  width: fit-content;
+  padding: 2rem;
+}
+
+.firstName {
+  animation-name: firstName-TtoB;
+  animation-duration: 2s;
+}
+.lastName {
+  animation-name: lastName-BtoT;
+  animation-duration: 2s;
+  border-top: solid $color-secondary 0.5rem;
+}
